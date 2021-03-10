@@ -2,6 +2,10 @@ body {
   scroll-behavior: smooth;
 }
 
+#homePage a {
+  text-decoration: none;
+  color: white;
+}
 
 /* navbar */
 .app-navbar {
