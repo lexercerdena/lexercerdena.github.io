@@ -1,3 +1,8 @@
+body {
+  scroll-behavior: smooth;
+}
+
+
 /* navbar */
 .app-navbar {
   font-weight: 500;
@@ -190,3 +195,4 @@
 .app-code .purple {
   color: rgb(192, 85, 192);
 }
+
