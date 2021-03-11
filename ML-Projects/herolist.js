@@ -33,7 +33,7 @@ var heroData = [
 		difficulty:  '55%'
 	},
 	{
-		image: "pic/Change.jpg",
+		image: "pic/change.jpg",
 		name: "Change",
 		story: "Back Story - Chang'e",
 		description: "Chang'e is the best mage hero in Mobile Legends who takes form of a little girl who rides the moon while holding a rabbit. She has a terrifying power with a quite high damage and fairly good control effect.",
@@ -45,7 +45,7 @@ var heroData = [
 		difficulty:  '60%'
 	},
 	{
-		image: "pic/Khufra.jpg",
+		image: "pic/khufra.jpg",
 		name: "Khufra",
 		story: "Back Story - Khufra",
 		description: "Khufra is a Tank with strong CC. who can dash towards enemies and stop enemies from using blink skills.",
@@ -57,7 +57,7 @@ var heroData = [
 		difficulty:  '80%'
 	},
 	{
-		image: "pic/Zilong.jpg",
+		image: "pic/zilong.jpg",
 		name: "Zilong",
 		story: "Back Story - Zilong",
 		description: "Zilong is a powerful warrior that excels in dealing high damage per second and supporting allies by hindering and sending enemies to their doom. Since he is easy to use, both newbies and veterans alike can utilize him to achieve flawless victories.",
@@ -69,7 +69,7 @@ var heroData = [
 		difficulty:  '50%'
 	},
 	{
-		image: "pic/Dyrroth.jpg",
+		image: "pic/dyrroth.jpg",
 		name: "Dyrroth",
 		story: "Back Story - Dyrroth",
 		description: "Dyrroth is the prince of the Abyss with equal cleverness and power. He has a balanced damage output and health",
@@ -132,7 +132,7 @@ var heroData = [
 		image: "pic/ling.jpg",
 		name: "Ling",
 		story: "Back Story - Ling",
-		description: "Ling is a new interesting Assassin hero in Mobile Legends with a Burst Damage and Reap specialty. What's unique about Ling is his ability to walk and leap through walls, which makes him incredibly mobile and stealthy—perfect for an Assassin role.",
+		description: "Ling is a new interesting Assassin hero in Mobile Legends with a Burst Damage and Reap specialty. What's unique about Ling is his ability to walk and leap through walls, which makes him incredibly mobile and stealthyï¿½perfect for an Assassin role.",
 		role: "( Assasin )",
 		isSpecial: false,
 		durability:  '95%',
