@@ -201,9 +201,9 @@ html {
   color: rgb(192, 85, 192);
 }
 
-.bsitechWebpage a {
+/* .bsitechWebpage a {
   color: #F4F5F6;
-}
+} */
 
 .col-sm-5.push-sm-7.py-5 {
   background: radial-gradient(black, transparent);
@@ -211,5 +211,9 @@ html {
 
 .ml-project-leftside {
   left: 5.33333%;
+}
+
+.bsitechWebpage a {
+  color: #F4F5F6;
 }
 
