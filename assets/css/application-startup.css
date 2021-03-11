@@ -209,3 +209,7 @@ html {
   background: radial-gradient(black, transparent);
 }
 
+.ml-project-leftside {
+  left: 5.33333%;
+}
+
