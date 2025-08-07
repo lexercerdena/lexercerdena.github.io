@@ -41,9 +41,13 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="text-2xl font-bold gradient-text">
-              Frontend Engineer
-            </h1>
+            <img 
+              src="/lex-logo.png" 
+              alt="Lex Cerdena Logo" 
+              className="h-10 w-auto hover:scale-105 transition-transform duration-300 cursor-pointer"
+              style={{ filter: 'brightness(0) invert(1)' }}
+              onClick={() => document.getElementById('home')?.scrollIntoView({ behavior: 'smooth' })}
+            />
           </div>
 
           {/* Desktop Navigation */}

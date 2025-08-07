@@ -19,7 +19,7 @@
   }
   
   .btn-secondary {
-    @apply bg-transparent border-2 border-midnight text-midnight hover:bg-midnight hover:text-linen font-medium py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo focus:ring-offset-2;
+    @apply bg-transparent border-2 border-midnight text-white hover:bg-midnight hover:text-linen font-medium py-3 px-6 rounded-lg transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-indigo focus:ring-offset-2;
   }
   
   .section-padding {
@@ -27,7 +27,7 @@
   }
   
   .container-custom {
-    @apply max-w-7xl mx-auto;
+    @apply max-w-7xl mx-auto w-[90%];
   }
   
   .gradient-text {
