@@ -56,12 +56,19 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
           >
-            <button className="btn-primary">
+            <button 
+              className="btn-primary"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               View My Work
             </button>
-            <button className="btn-secondary">
+            <a 
+              href="/Lexer-Cerdena-Resume.pdf"
+              download="Lexer-Cerdena-Resume.pdf"
+              className="btn-secondary inline-block text-center"
+            >
               Download Resume
-            </button>
+            </a>
           </motion.div>
 
           {/* Social Links */}

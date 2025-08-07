@@ -23,7 +23,11 @@ export default {
           100: '#1f2937',
           200: '#111827',
           300: '#0f172a',
-        }
+        },
+        midnight: '#22223B',
+        indigo: '#4a4e69',
+        rose: '#c9ada7',
+        linen: '#f2e9e4',
       },
       fontFamily: {
         'sans': ['Inter', 'system-ui', 'sans-serif'],
