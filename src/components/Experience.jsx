@@ -6,46 +6,45 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      title: 'Senior Frontend Engineer',
-      company: 'TechCorp Inc.',
-      location: 'San Francisco, CA',
+      title: 'Frontend Developer',
+      company: 'Roya.com Media Design Inc.',
+      location: 'San Diego, CA',
       period: '2022 - Present',
-      description: 'Leading frontend development for enterprise applications, mentoring junior developers, and implementing best practices for code quality and performance.',
+      description: 'Leading frontend development for enterprise applications, content management system, and implementing best practices for code quality and performance.',
       achievements: [
-        'Led a team of 5 developers in building a complex dashboard application',
-        'Improved application performance by 40% through code optimization',
-        'Implemented CI/CD pipelines reducing deployment time by 60%',
+        'Optimizing the user experience',
+        'Meeting with Project Manager and Team to discuss website production and function.',
+        'Creating tools that improve site interaction regardless of the browser.',
         'Mentored 3 junior developers and conducted code reviews'
       ],
-      technologies: ['React', 'TypeScript', 'Node.js', 'AWS', 'Docker']
+      technologies: ['Javascript', 'Tailwind', 'PHP', 'CSS', 'HTML', 'jQuery']
     },
     {
       id: 2,
-      title: 'Frontend Developer',
-      company: 'StartupXYZ',
-      location: 'New York, NY',
-      period: '2020 - 2022',
+      title: 'Frontend Developer (Project Based)',
+      company: 'GLDC (Green Living Development Corporation)',
+      location: 'Cebu City, Philippines',
+      period: 'August 2023 - December 2023',
       description: 'Developed responsive web applications and collaborated with design and backend teams to deliver high-quality user experiences.',
       achievements: [
-        'Built 3 major features that increased user engagement by 25%',
-        'Reduced bundle size by 30% through code splitting and optimization',
-        'Implemented accessibility features improving WCAG compliance',
+        'Design and develop user-friendly, responsive web interfaces and applications.',
+        'Translate design mockups and wireframes into functional web pages.',
+        'Use version control systems like Git to track changes and collaborate with team members.',
         'Collaborated with UX team to improve user interface design'
       ],
-      technologies: ['React', 'JavaScript', 'CSS3', 'Git', 'REST APIs']
+      technologies: ['Laravel', 'JavaScript', 'CSS3', 'Github', 'Tailwind']
     },
     {
       id: 3,
       title: 'Junior Web Developer',
-      company: 'Digital Agency ABC',
-      location: 'Austin, TX',
-      period: '2019 - 2020',
+      company: 'Endsofttech Web Solutions',
+      location: 'Las Pinas, Philippines',
+      period: '2021 - 2022',
       description: 'Started my professional journey building websites and web applications for various clients across different industries.',
       achievements: [
-        'Developed 15+ client websites with responsive design',
+        'Creating Web Development and Website Blogs using Wordpress Platform',
         'Learned modern JavaScript frameworks and build tools',
-        'Worked with clients to understand requirements and deliver solutions',
-        'Contributed to open-source projects and attended tech meetups'
+        'Worked with clients to understand requirements and deliver solutions'
       ],
       technologies: ['HTML5', 'CSS3', 'JavaScript', 'jQuery', 'WordPress']
     }
@@ -129,7 +128,7 @@ const Experience = () => {
                   <ul className="space-y-1">
                     {experience.achievements.map((achievement, achievementIndex) => (
                       <li key={achievementIndex} className="text-gray-400 text-sm flex items-start space-x-2">
-                        <span className="text-primary-400 mt-1">•</span>
+                        <span className="text-primary-400">•</span>
                         <span>{achievement}</span>
                       </li>
                     ))}
@@ -169,12 +168,12 @@ const Experience = () => {
           <div className="bg-dark-100 rounded-lg p-6 max-w-2xl mx-auto">
             <div className="text-center">
               <h4 className="text-xl font-bold text-white mb-2">
-                Bachelor of Science in Computer Science
+                Bachelor of Science in Information Technology
               </h4>
-              <p className="text-gray-400 mb-2">University of Technology</p>
-              <p className="text-gray-400 text-sm">2015 - 2019</p>
+              <p className="text-gray-400 mb-2">ACLC College (AMA Computer Learning Center)</p>
+              <p className="text-gray-400 text-sm">2010 - 2016</p>
               <p className="text-gray-300 mt-4">
-                Graduated with honors. Focused on web development, algorithms, and software engineering principles.
+                Focused on web development, algorithms, and software engineering principles.
                 Completed capstone project on modern web application development.
               </p>
             </div>

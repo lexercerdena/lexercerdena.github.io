@@ -1,49 +1,45 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import { 
-  FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, 
-  FaDocker, FaAws, FaDatabase, FaFigma, FaSass, FaNpm 
+  FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub, 
+  FaDocker, FaAws, FaFigma, FaSass, FaNpm, FaPhp
 } from 'react-icons/fa'
-import { SiTypescript, SiTailwindcss, SiVite, SiNextdotjs, SiMongodb, SiPostgresql } from 'react-icons/si'
+import { SiTypescript, SiTailwindcss, SiVite, SiNextdotjs, SiMongodb, SiPostgresql, SiAdobephotoshop } from 'react-icons/si'
 
 const Skills = () => {
   const skillCategories = [
     {
       title: 'Frontend',
       skills: [
-        { name: 'React', icon: FaReact, level: 95, color: '#61DAFB' },
-        { name: 'TypeScript', icon: SiTypescript, level: 90, color: '#3178C6' },
-        { name: 'JavaScript', icon: FaJs, level: 95, color: '#F7DF1E' },
+        { name: 'React', icon: FaReact, level: 50, color: '#61DAFB' },
+        { name: 'JavaScript', icon: FaJs, level: 80, color: '#F7DF1E' },
         { name: 'HTML5', icon: FaHtml5, level: 90, color: '#E34F26' },
         { name: 'CSS3', icon: FaCss3Alt, level: 85, color: '#1572B6' },
-        { name: 'Tailwind CSS', icon: SiTailwindcss, level: 90, color: '#06B6D4' },
-        { name: 'Sass', icon: FaSass, level: 80, color: '#CC6699' },
+        { name: 'Tailwind CSS', icon: SiTailwindcss, level: 70, color: '#06B6D4' },
       ]
     },
     {
       title: 'Tools & Build',
       skills: [
-        { name: 'Vite', icon: SiVite, level: 85, color: '#646CFF' },
-        { name: 'Next.js', icon: SiNextdotjs, level: 80, color: '#000000' },
-        { name: 'Git', icon: FaGitAlt, level: 90, color: '#F05032' },
-        { name: 'npm', icon: FaNpm, level: 85, color: '#CB3837' },
-        { name: 'Docker', icon: FaDocker, level: 75, color: '#2496ED' },
+        { name: 'Vite', icon: SiVite, level: 50, color: '#646CFF' },
+        { name: 'Next.js', icon: SiNextdotjs, level: 40, color: '#000000' },
+        { name: 'GitHub', icon: FaGithub, level: 75, color: '#181717' },
+        { name: 'npm', icon: FaNpm, level: 65, color: '#CB3837' },
       ]
     },
     {
       title: 'Backend & Database',
       skills: [
-        { name: 'Node.js', icon: FaNodeJs, level: 80, color: '#339933' },
-        { name: 'MongoDB', icon: SiMongodb, level: 75, color: '#47A248' },
-        { name: 'PostgreSQL', icon: SiPostgresql, level: 70, color: '#336791' },
-        { name: 'AWS', icon: FaAws, level: 70, color: '#FF9900' },
+        { name: 'Node.js', icon: FaNodeJs, level: 50, color: '#339933' },
+        { name: 'PHP', icon: FaPhp, level: 75, color: '#777BB4' },
+        { name: 'MongoDB', icon: SiMongodb, level: 50, color: '#47A248' },
       ]
     },
     {
       title: 'Design & Tools',
       skills: [
-        { name: 'Figma', icon: FaFigma, level: 85, color: '#F24E1E' },
-        { name: 'Database Design', icon: FaDatabase, level: 75, color: '#336791' },
+        { name: 'Figma', icon: FaFigma, level: 75, color: '#F24E1E' },
+        { name: 'Photoshop', icon: SiAdobephotoshop, level: 65, color: '#31A8FF' },
       ]
     }
   ]
@@ -136,8 +132,7 @@ const Skills = () => {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              'REST APIs', 'GraphQL', 'Redux', 'Zustand', 'Jest', 'Testing Library',
-              'CI/CD', 'Agile', 'Scrum', 'Responsive Design', 'Accessibility', 'SEO'
+              'REST APIs', 'Testing Library', 'Responsive Design', 'Accessibility', 'SEO', 'CMS'
             ].map((skill, index) => (
               <motion.div
                 key={skill}

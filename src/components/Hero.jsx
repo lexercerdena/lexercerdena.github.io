@@ -1,12 +1,12 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaTwitter, FaArrowDown } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaFacebook, FaArrowDown } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 
 const Hero = () => {
   const socialLinks = [
-    { icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
-    { icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: FaGithub, href: 'https://github.com/lexercerdena', label: 'GitHub' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/lexercerdena/', label: 'LinkedIn' },
+    { icon: FaFacebook, href: 'https://web.facebook.com/lexerc/', label: 'Facebook' },
   ]
 
   return (
@@ -97,7 +97,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
-            className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+            className="absolute bottom-4 left-1/2 transform -translate-x-1/2"
           >
             <motion.div
               animate={{ y: [0, 10, 0] }}

@@ -57,13 +57,13 @@ const About = () => {
             </h3>
             <div className="space-y-4 text-gray-300">
               <p>
-                I'm a dedicated frontend engineer with over 5 years of experience building 
+                I'm a dedicated frontend engineer with over 3 years of experience building 
                 modern web applications. My journey in web development started with a curiosity 
                 about how websites work, which evolved into a passion for creating exceptional 
                 user experiences.
               </p>
               <p>
-                I specialize in React, TypeScript, and modern CSS frameworks, always staying 
+                I specialize in React, Tailwind, and modern CSS frameworks, always staying 
                 up-to-date with the latest industry trends and best practices. My approach 
                 combines technical expertise with creative problem-solving to deliver solutions 
                 that not only work flawlessly but also delight users.
@@ -77,11 +77,11 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center p-4 bg-dark-100 rounded-lg">
-                <div className="text-2xl font-bold text-primary-400">5+</div>
+                <div className="text-2xl font-bold text-primary-400">3+</div>
                 <div className="text-gray-400 text-sm">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-dark-100 rounded-lg">
-                <div className="text-2xl font-bold text-primary-400">50+</div>
+                <div className="text-2xl font-bold text-primary-400">40+</div>
                 <div className="text-gray-400 text-sm">Projects Completed</div>
               </div>
             </div>
