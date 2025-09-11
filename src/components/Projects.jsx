@@ -15,7 +15,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Stripe'],
       icons: [FaReact, SiTypescript, FaJs, SiMongodb],
       github: 'https://github.com',
-      live: 'https://example.com',
+      live: '#/projects/ecommerce',
       category: 'fullstack'
     },
     {
@@ -26,7 +26,7 @@ const Projects = () => {
       technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
       icons: [FaReact, SiTypescript, SiTailwindcss],
       github: 'https://github.com',
-      live: 'https://example.com',
+      live: '#/projects/task-manager',
       category: 'frontend'
     },
     {
@@ -202,6 +202,15 @@ const Projects = () => {
                     <FaExternalLinkAlt size={16} />
                     <span className="text-sm">Live Demo</span>
                   </a>
+                  {(project.title === 'E-Commerce Platform' || project.title === 'Task Management App') && (
+                    <a
+                      href={project.title === 'E-Commerce Platform' ? '#/projects/ecommerce' : '#/projects/task-manager'}
+                      className="flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors duration-300"
+                    >
+                      <FaExternalLinkAlt size={16} />
+                      <span className="text-sm">Case Study</span>
+                    </a>
+                  )}
                 </div>
               </div>
             </motion.div>
