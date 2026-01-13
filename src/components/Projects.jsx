@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FaGithub, FaExternalLinkAlt, FaReact, FaJs, FaCss3Alt } from 'react-icons/fa'
-import { SiTypescript, SiTailwindcss, SiVite, SiNextdotjs, SiMongodb } from 'react-icons/si'
+import { SiTypescript, SiTailwindcss, SiVite, SiNextdotjs, SiMongodb, SiWordpress } from 'react-icons/si'
+import fukagawaImage from '../assets/images/fukagawa-finedining.de.png'
 
 const Projects = () => {
   const [activeFilter, setActiveFilter] = useState('all')
@@ -9,13 +10,13 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform built with React, Node.js, and MongoDB. Features include user authentication, product management, shopping cart, and payment integration.',
-      image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop',
-      technologies: ['React', 'TypeScript', 'Node.js', 'MongoDB', 'Stripe'],
-      icons: [FaReact, SiTypescript, FaJs, SiMongodb],
+      title: 'Fukagawa Fine Dining Restaurant',
+      description: 'Fukagawa eröffnet Anfang 2026 in Berlin Kreuzberg und ist das dritte gastronomische Projekt von Leonardo Tsubasa Donati und Sabrina Schulz.',
+      image: fukagawaImage,
+      technologies: ['WordPress', 'CSS', 'JavaScript'],
+      icons: [SiWordpress, FaCss3Alt, FaJs],
       github: 'https://github.com',
-      live: '#/projects/ecommerce',
+      live: 'https://fukagawa-finedining.de/',
       category: 'fullstack'
     },
     {
@@ -202,9 +203,9 @@ const Projects = () => {
                     <FaExternalLinkAlt size={16} />
                     <span className="text-sm">Live Demo</span>
                   </a>
-                  {(project.title === 'E-Commerce Platform' || project.title === 'Task Management App') && (
+                  {(project.title === 'Fukagawa Fine Dining Restaurant' || project.title === 'Task Management App') && (
                     <a
-                      href={project.title === 'E-Commerce Platform' ? '#/projects/ecommerce' : '#/projects/task-manager'}
+                      href={project.title === 'Fukagawa Fine Dining Restaurant' ? '#/projects/ecommerce' : '#/projects/task-manager'}
                       className="flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors duration-300"
                     >
                       <FaExternalLinkAlt size={16} />

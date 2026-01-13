@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { FaGithub, FaLinkedin, FaTwitter, FaHeart } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaTwitter, FaHeart, FaFacebook } from 'react-icons/fa'
 
 const Footer = () => {
   const socialLinks = [
-    { icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
-    { icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: FaGithub, href: 'https://github.com/lexercerdena', label: 'GitHub' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/lexercerdena/', label: 'LinkedIn' },
+    { icon: FaFacebook, href: 'https://web.facebook.com/lexerc/', label: 'Facebook' },
   ]
 
   const currentYear = new Date().getFullYear()

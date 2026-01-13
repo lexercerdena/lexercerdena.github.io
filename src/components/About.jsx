@@ -77,7 +77,7 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="text-center p-4 bg-dark-100 rounded-lg">
-                <div className="text-2xl font-bold text-primary-400">3+</div>
+                <div className="text-2xl font-bold text-primary-400">4+</div>
                 <div className="text-gray-400 text-sm">Years Experience</div>
               </div>
               <div className="text-center p-4 bg-dark-100 rounded-lg">

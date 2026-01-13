@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaTwitter } from 'react-icons/fa'
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaLinkedin, FaGithub, FaTwitter, FaFacebook } from 'react-icons/fa'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -34,27 +34,27 @@ const Contact = () => {
     {
       icon: FaEnvelope,
       title: 'Email',
-      value: 'hello@frontendengineer.com',
-      href: 'mailto:hello@frontendengineer.com'
+      value: 'lexercerdena@gmail.com',
+      href: 'mailto:lexercerdena@gmail.com'
     },
     {
       icon: FaPhone,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+63 9946 311 078',
+      href: 'tel:+639946311078'
     },
     {
       icon: FaMapMarkerAlt,
       title: 'Location',
-      value: 'San Francisco, CA',
-      href: '#'
+      value: '#1 Sampaguita Avenue, Sampaguita Village, San Pedro Laguna',
+      href: 'https://maps.app.goo.gl/Vb37upWMLz2uorqUA'
     }
   ]
 
   const socialLinks = [
-    { icon: FaLinkedin, href: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: FaGithub, href: 'https://github.com', label: 'GitHub' },
-    { icon: FaTwitter, href: 'https://twitter.com', label: 'Twitter' },
+    { icon: FaLinkedin, href: 'https://www.linkedin.com/in/lexercerdena/', label: 'LinkedIn' },
+    { icon: FaGithub, href: 'https://github.com/lexercerdena', label: 'GitHub' },
+    { icon: FaFacebook, href: 'https://web.facebook.com/lexerc/', label: 'Facebook' },
   ]
 
   return (
@@ -180,6 +180,8 @@ const Contact = () => {
                     <h4 className="text-white font-medium">{info.title}</h4>
                     <a
                       href={info.href}
+                      target={info.href.startsWith('http') ? '_blank' : undefined}
+                      rel={info.href.startsWith('http') ? 'noopener noreferrer' : undefined}
                       className="text-gray-400 hover:text-primary-400 transition-colors duration-300"
                     >
                       {info.value}

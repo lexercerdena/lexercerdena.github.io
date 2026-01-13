@@ -4,7 +4,7 @@ import {
   FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGithub, 
   FaDocker, FaAws, FaFigma, FaSass, FaNpm, FaPhp
 } from 'react-icons/fa'
-import { SiTypescript, SiTailwindcss, SiVite, SiNextdotjs, SiMongodb, SiPostgresql, SiAdobephotoshop } from 'react-icons/si'
+import { SiTypescript, SiTailwindcss, SiVite, SiNextdotjs, SiMongodb, SiPostgresql, SiAdobephotoshop, SiAlpinedotjs, SiWordpress } from 'react-icons/si'
 
 const Skills = () => {
   const skillCategories = [
@@ -21,8 +21,9 @@ const Skills = () => {
     {
       title: 'Tools & Build',
       skills: [
-        { name: 'Vite', icon: SiVite, level: 50, color: '#646CFF' },
-        { name: 'Next.js', icon: SiNextdotjs, level: 40, color: '#000000' },
+        { name: 'Alpine.js', icon: SiAlpinedotjs, level: 50, color: '#646CFF' },
+        // { name: 'Next.js', icon: SiNextdotjs, level: 40, color: '#000000' },
+        { name: 'WordPress', icon: SiWordpress, level: 70, color: '#21759B' },
         { name: 'GitHub', icon: FaGithub, level: 75, color: '#181717' },
         { name: 'npm', icon: FaNpm, level: 65, color: '#CB3837' },
       ]
@@ -32,7 +33,7 @@ const Skills = () => {
       skills: [
         { name: 'Node.js', icon: FaNodeJs, level: 50, color: '#339933' },
         { name: 'PHP', icon: FaPhp, level: 75, color: '#777BB4' },
-        { name: 'MongoDB', icon: SiMongodb, level: 50, color: '#47A248' },
+        // { name: 'MongoDB', icon: SiMongodb, level: 50, color: '#47A248' },
       ]
     },
     {
