@@ -63,8 +63,8 @@ const Hero = () => {
               View My Work
             </button>
             <a 
-              href="/Lexer-Cerdena-Resume.pdf"
-              download="Lexer-Cerdena-Resume.pdf"
+              href="/Lexer Resume.pdf"
+              download="Lexer Resume.pdf"
               className="btn-secondary inline-block text-center"
             >
               Download Resume
